@@ -216,7 +216,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
                 except UserNotParticipant:
                     await cb.message.edit("Unable to Add Channel in Database!\nI am not Admin in Channel.")
                 except Exception as err:
-                    await cb.message.edit(f"Unable to Find Channel!\n\n**Error:** `{err}`", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Support Group", url="https://t.me/DevsZone")]]))
+                    await cb.message.edit(f"Unable to Find Channel!\n\n**Error:** `{err}`", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/RituRajPS")]]))
             elif event_.text and (event_.text == "/cancel"):
                 await cb.message.edit("Process Cancelled!")
         except TimeoutError:

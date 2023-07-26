@@ -18,8 +18,8 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
-### Support Group:
-<a href="https://t.me/DevsZone"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+### Developer:
+<a href="https://t.me/RituRajPS"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ### Follow on:
 <p align="left">
