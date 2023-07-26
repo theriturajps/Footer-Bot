@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @RituRajPS
 
 import shutil
 import psutil
@@ -34,8 +34,9 @@ async def _start(bot: Client, m: Message):
             Config.START_TEXT,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"), InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
-                    [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005")]
+                    [
+                        InlineKeyboardButton("Developer", url="https://t.me/RituRajPS")
+                    ]
                 ]
             ),
             quote=True

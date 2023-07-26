@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @RituRajPS
 
 import asyncio
 from pyrogram import Client
